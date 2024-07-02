@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivananthan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1bd92e9125.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------------- header ----------------->
+    <div id="header">
+
+        <div class="container  ">
+            <nav class="fixed-header">
+                <!-- <img src="Keyboard.webp" class="logo"> -->
+                <h1><span>S </span>Sivananthan</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+                    <li><a href="#services" onclick="scrollToSection('services')">Services</a></li>
+                    <li><a href="#portfolio" onclick="scrollToSection('portfolio')">Portfolio</a></li>
+                    <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sivananthan</span><br>B.E/CSE</h1>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--------------------- about -------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="InShot_20230312_151520029-01.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have Done My Bachelor Degree of Computer Science and Engineering in Tagore Institute of Engineering and Technology.
+                       Along with Degree I have Completed in Fullstack Developer Course in Izeon Innovative Pvt Ltd.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span>
+                            <li><span>Java</span>
+                            <li><span>UI/UX</span>
+                            <li><span>Team Collaboration</span>
+                            <li><span>Analytical & learnig</span>
+                            <li><span>Writing</span>   
+                                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Data Entry</li>
+                            <li><span>2023</span><br>fullstack developer training at Izeon Innovative Pvt Ltd</li>
+                            <li><span>2022</span><br>Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>B.E/Computer Science and Engineering</li>
+                            <li><span>2018-2019</span><br>HSC</li>
+                            <li><span>2016-2017</span><br>SSLC</li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>
+    <!------------------ services ------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>IBM</h2>
+                    <p>I have Developed Realtime Communication powered by AI for specially abled Peoples.
+                       This Project mainly Used for Deaf and Dumb People Easily Communicate to others and Mostly Used for abled peoples.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>CHATBOT</h2>
+                    <p>Chatbot for Hospital Management using AI Technology.
+                       I have Developed an AI-Based Medical Chatbot using Python Language.This Project Mainly Used Patient to Hospital Management Direct Appointment in Your Ownwise. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Gadget Freeks Web Page</h2>
+                    <p>I Have Completed Fullstck Development Course in Izeon Innovative Pvt Ltd Chennai.
+                       I have Created Own E-Commerce WebSite.</p>
+                    <a href="#">Learn more</a>
+                 </div>   
+                 <div>   
+                 <i class="fa-solid fa-crop-simple"></i>
+                       <h2>Portfolio</h2>
+                       <p>I have created my Own Portfolio Website. </p>
+                       <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+ 
+         <!------------------ services ------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Certificates</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>IBM</h2>
+                    <p>Realtime communication Using AI for Specially abled People</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Marcelo Tech</h2>
+                    <p>Flutter & Dart</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>New Technology Mobile Service and Training</h2>
+                    <p>Chip Level and Debugging and Smartphone and Tablets</p>
+                    <a href="#">Learn more</a>
+                 </div>   
+                 <div>   
+                 <i class="fa-solid fa-crop-simple"></i>
+                       <h2>Izeon Innovative Pvt Ltd Chennai</h2>
+                       <p>Fullstack Developer </p>
+                       <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!------------------ portfolio ------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="dataentry.png">
+                    <div class="layer">
+                        <h3>Data Entry</h3>
+                        <p>I have worked Data Entry Job</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gadgets.jpeg">
+                    <div class="layer">
+                        <h3>Gadgets</h3>
+                        <p>I have create Own E-Commerce Site
+                            </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Realtime.png">
+                    <div class="layer">
+                        <h3>RealTime Communication</h3>
+                        <p>This Project Used for Deaf and Dumb Peoples Communicate to others
+                            </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------- contact ------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>siva62441@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6379566613</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sivananthhan.s.7?=JRoKGi"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/instasiva07?igsh=MTY5enR0cHyOXRkdQ=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sivananthan-s-4675322a"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="github.com/Sivananthan07"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/imsiva73?t=yMr8l-s2jdNhnFbjBFAXDA&s=09"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="t.me/sivadhoni0"><i
+                                class="fa-brands fa-telegram"></i></a>
+
+                    </div>
+                    <a href="CV_202407021342504.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- credit  -------------------->
+    <div class="credit">
+        <div class="credit-inside">Made with ❤️ by Sivananthan</div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- animation redirection js  -->
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- google sheet script -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKR7QR_J0dXCM2UfJTIjfejMaD1ks83GSWHoY62i6ou7fadTDQWAzfzzqYIU6f1gc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ''
+            },5000);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
+
